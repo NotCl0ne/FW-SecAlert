@@ -7,7 +7,7 @@ import yaml
 from constants import BOT_TOKEN,CHAT_ID
 
 #import os
-#os.chdir('/home/antqt/Security-Alert/')
+#os.chdir('/home/antqt/FW-SecAlert/')
 def send(messages):
 	updater = Updater(token=BOT_TOKEN, use_context=True)
 	for message in messages:
